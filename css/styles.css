@@ -1,0 +1,154 @@
+/*! CSS Used from: https://bootstrapmade.com/demo/templates/Sailor/assets/vendor/bootstrap/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+h1{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h1{font-size:calc(1.375rem + 1.5vw);}
+@media (min-width:1200px){
+h1{font-size:2.5rem;}
+}
+ul{padding-left:2rem;}
+ul{margin-top:0;margin-bottom:1rem;}
+ul ul{margin-bottom:0;}
+a{color:#0d6efd;text-decoration:underline;}
+a:hover{color:#0a58ca;}
+::-moz-focus-inner{padding:0;border-style:none;}
+.container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+}
+.dropdown{position:relative;}
+.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem;}
+.fixed-top{position:fixed;top:0;right:0;left:0;z-index:1030;}
+.d-flex{display:flex!important;}
+.align-items-center{align-items:center!important;}
+.me-auto{margin-right:auto!important;}
+/*! CSS Used from: https://bootstrapmade.com/demo/templates/Sailor/assets/vendor/bootstrap-icons/bootstrap-icons.css */
+.bi::before,[class*=" bi-"]::before{display:inline-block;font-family:bootstrap-icons!important;font-style:normal;font-weight:normal!important;font-variant:normal;text-transform:none;line-height:1;vertical-align:-.125em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.bi-chevron-down::before{content:"\f282";}
+.bi-chevron-right::before{content:"\f285";}
+.bi-list::before{content:"\f479";}
+/*! CSS Used from: https://bootstrapmade.com/demo/templates/Sailor/assets/css/style.css */
+a{text-decoration:none;color:#d9232d;}
+a:hover{color:#e24d55;text-decoration:none;}
+h1{font-family:"Raleway", sans-serif;}
+#header{background:white;transition:all 0.5s;z-index:997;padding:20px 0;}
+#header .logo{font-size:28px;margin:0;padding:0;line-height:1;font-weight:700;text-transform:uppercase;}
+#header .logo a{color:#556270;}
+.navbar{padding:0;}
+.navbar ul{margin:0;padding:0;display:flex;list-style:none;align-items:center;}
+.navbar li{position:relative;}
+.navbar a,.navbar a:focus{display:flex;align-items:center;justify-content:space-between;padding:10px 0 10px 30px;font-family:"Poppins", sans-serif;font-size:15px;font-weight:500;color:#556270;white-space:nowrap;transition:0.3s;}
+.navbar a i,.navbar a:focus i{font-size:12px;line-height:0;margin-left:5px;}
+.navbar a:hover,.navbar .active,.navbar .active:focus,.navbar li:hover > a{color:#d9232d;}
+.navbar .getstarted,.navbar .getstarted:focus{background:#d9232d;padding:8px 25px;margin-left:30px;border-radius:4px;font-weight:400;color:#fff;}
+.navbar .getstarted:hover,.navbar .getstarted:focus:hover{color:#fff;background:#e1444d;}
+.navbar .dropdown ul{display:block;position:absolute;left:14px;top:calc(100% + 30px);margin:0;padding:10px 0;z-index:99;opacity:0;visibility:hidden;background:#fff;box-shadow:0px 0px 30px rgba(127, 137, 161, 0.25);transition:0.3s;}
+.navbar .dropdown ul li{min-width:200px;}
+.navbar .dropdown ul a{padding:10px 20px;font-size:15px;text-transform:none;font-weight:400;}
+.navbar .dropdown ul a i{font-size:12px;}
+.navbar .dropdown ul a:hover,.navbar .dropdown ul li:hover > a{color:#d9232d;}
+.navbar .dropdown:hover > ul{opacity:1;top:100%;visibility:visible;}
+.navbar .dropdown .dropdown ul{top:0;left:calc(100% - 30px);visibility:hidden;}
+.navbar .dropdown .dropdown:hover > ul{opacity:1;top:0;left:100%;visibility:visible;}
+@media (max-width: 1366px){
+.navbar .dropdown .dropdown ul{left:-90%;}
+.navbar .dropdown .dropdown:hover > ul{left:-100%;}
+}
+.mobile-nav-toggle{color:#556270;font-size:28px;cursor:pointer;display:none;line-height:0;transition:0.5s;}
+@media (max-width: 991px){
+.mobile-nav-toggle{display:block;}
+.navbar ul{display:none;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:"bootstrap-icons";src:url("https://bootstrapmade.com/demo/templates/Sailor/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"), url("https://bootstrapmade.com/demo/templates/Sailor/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff?a74547b2f0863226942ff8ded57db345") format("woff");}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QIFqPfE.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4QoFqPfE.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4Q4FqPfE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptsg8zYS_SKggPNyCg4TYFq.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCAIT5lu.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCkIT5lu.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCIIT5lu.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Raleway';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/raleway/v26/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:italic;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:300;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:500;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:600;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Poppins';font-style:normal;font-weight:700;src:url(https://fonts.gstatic.com/s/poppins/v19/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
